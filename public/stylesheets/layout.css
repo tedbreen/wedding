@@ -1,0 +1,11 @@
+@import "./navbar.css";
+@import "./index.css";
+
+body {
+  background-color: #FFE3AA;
+}
+
+header {
+  background-color: #AA8539;
+  color: #FFF;
+}

@@ -1,0 +1,41 @@
+.main-section {
+  display: block;
+  padding: 20px;
+  margin: 60px auto 0;
+  max-width: 960px;
+  box-sizing: border-box;
+  background-color: #FFF;
+  font-size: 1rem;
+}
+
+.main-section-image {
+  display: none;
+  height: 360px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-section-title
+, .main-section-subtitle {
+  display: block;
+  text-align: center;
+}
+
+.main-section-image {
+  background-image: url("../images/columbia-gorge-vista.jpg");
+}
+
+.main-section-title {
+  font-size: 4em;
+}
+
+@media (min-width: 768px) {
+  .main-section-image {
+    display: block;
+    max-width: 920px;
+  }
+
+  .main-section-title {
+    margin-top: 10px;
+  }
+}

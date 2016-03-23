@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/reset.css' />
+    <link rel='stylesheet' href='/stylesheets/hamburgers.css' />
+    <link rel='stylesheet' href='/stylesheets/layout.css' />
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <ul id="navBarMenu" class="navBar-menu">
+          <li class="navBar-menu-li-button">
+            <button id="hamburger-button" class="hamburger hamburger--slider" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </li>
+          <li class="navBar-menu-li">
+            <a href="/" class="navBar-menu-li-a">Home</a>
+          </li>
+          <li class="navBar-menu-li">
+            <a href="/location" class="navBar-menu-li-a">Location</a>
+          </li>
+          <li class="navBar-menu-li">
+            <a href="/lodging" class="navBar-menu-li-a">Lodging</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    {{{body}}}
+    <script src="javascripts/navbar-toggle.js"></script>
+  </body>
+</html>

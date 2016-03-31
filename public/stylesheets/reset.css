@@ -1,8 +1,19 @@
-html, body, main, header, nav, ul, li, figure, h1, h3, a {
+html, body, main, button, header, nav, ul, li, figure, h1, h2, h3, a {
   margin: 0;
   padding: 0;
-  border: 0;
-  font: 14px Helvetica, Arial, sans-serif;
+  border: none;
+  font: inherit;
+  text-decoration: inherit;
+  background: transparent;
+  font-size: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 ul {

@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Date and Time",
+    "list": [
+      {
+        "listItem": "Saturday, August 6, 2016"
+      },
+      {
+        "listItem": "4:00pm"
+      }
+    ]
+  },
+  {
+    "title": "Ceremony and Reception",
+    "list": [
+      {
+        "listItem": "Columbia River Yacht Club"
+      },
+      {
+        "listItem": "37 NE Tomahawk Island Drive"
+      },
+      {
+        "listItem": "Portland, OR 97217"
+      }
+    ]
+  },
+  {
+    "title": "Registry",
+    "list": [
+      {
+        "listItem": "Coming soon!!"
+      }
+    ]
+  }
+]

@@ -1,11 +1,14 @@
 var express = require('express')
 var path = require('path')
 // var favicon = require('serve-favicon')
+var hbs = require('hbs')
 var logger = require('morgan')
 var cookieParser = require('cookie-parser')
 var bodyParser = require('body-parser')
 
 var routes = require('./routes/')
+
+var detailsListHelper = require('./public/javascripts/details-list-helper')
 
 var app = express()
 
@@ -14,6 +17,10 @@ var errStatusCode = 500
 // view engine setup
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'hbs')
+
+hbs.registerPartials(__dirname + '/views/partials')
+
+hbs.registerHelper('details_list', detailsListHelper)
 
 // uncomment after placing your favicon in /public
 // app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))

@@ -1,0 +1,104 @@
+.header {
+  display: block;
+  background-color: #AA8539;
+  color: #FFF;
+  font-size: 4em;
+  font-weight: bold;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-color: #FFF;
+}
+
+.navBar {
+  font-size: inherit;
+}
+
+.navBar-heading {
+  display: inline-block;
+  padding: 40px;
+  font-size: inherit;
+}
+
+.navBar-menu:before {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.navBar-menu {
+  float: none;
+}
+
+.hamburger {
+  float: right;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
+.hamburger-inner
+, .hamburger-inner:before
+, .hamburger-inner:after {
+  background-color: #FFF;
+}
+
+.navBar-menu-li {
+  display: block;
+  border-color: #FFF;
+  border-style: solid;
+  text-align: center;
+  height: inherit;
+  transition: padding 0.3s, font-size 0.3s;
+}
+
+.navBar-menu .navBar-menu-li {
+  padding: 0;
+  border-width: 0;
+  font-size: 0;
+}
+
+.navBar-menu.is-active .navBar-menu-li {
+  padding: 40px 20px;
+  border-width: 2px 0 0 0;
+  font-size: 1em;
+}
+
+.navBar-menu-li-a {
+  color: inherit;
+}
+
+@media screen and (min-device-width: 768px) {
+  .header {
+    font-size: 2em;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navBar-heading {
+    display: inline-block;
+    padding: 20px;
+    font-size: inherit;
+  }
+
+  .navBar-menu {
+    float: right;
+  }
+
+  .navBar-menu .navBar-menu-li {
+    padding: 20px;
+    font-size: 1em;
+  }
+
+  .navBar-menu-li-button {
+    display: none;
+  }
+
+  .navBar-menu-li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 2em;
+  }
+}

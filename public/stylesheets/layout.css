@@ -1,11 +1,21 @@
-@import "./navbar.css";
+@import "./header.css";
+@import "./section.css";
 @import "./index.css";
+@import "./details.css";
+@import "./lodging.css";
 
 body {
-  background-color: #FFE3AA;
+  /*background-color: #FFE3AA;*/
 }
 
-header {
-  background-color: #AA8539;
-  color: #FFF;
+.main {
+  display: block;
+  background-color: #FFF;
+}
+
+@media screen and (min-device-width: 768px) {
+  .main {
+    max-width: 960px;
+    margin: 80px auto 0;
+  }
 }

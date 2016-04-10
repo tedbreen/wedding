@@ -2,7 +2,7 @@
   display: block;
   background-color: #AA8539;
   color: #FFF;
-  font-size: 4em;
+  font-size: 2em;
   font-weight: bold;
   border-width: 0 0 2px 0;
   border-style: solid;
@@ -15,7 +15,7 @@
 
 .navBar-heading {
   display: inline-block;
-  padding: 40px;
+  padding: 20px;
   font-size: inherit;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .navBar-menu.is-active .navBar-menu-li {
-  padding: 40px 20px;
+  padding: 20px;
   border-width: 2px 0 0 0;
   font-size: 1em;
 }
@@ -68,19 +68,9 @@
   color: inherit;
 }
 
-@media screen and (min-device-width: 768px) {
-  .header {
-    font-size: 2em;
-  }
-
+@media (min-width: 768px) {
   .hamburger {
     display: none;
-  }
-
-  .navBar-heading {
-    display: inline-block;
-    padding: 20px;
-    font-size: inherit;
   }
 
   .navBar-menu {
@@ -99,6 +89,5 @@
   .navBar-menu-li {
     display: inline-block;
     padding: 20px;
-    font-size: 2em;
   }
 }

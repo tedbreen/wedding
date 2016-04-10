@@ -3,10 +3,10 @@
 }
 
 .main-section-image {
-  height: 480px;
+  height: 200px;
   background-size: cover;
   background-position: center;
-  margin: 0 0 36px 0;
+  margin: 0 0 18px 0;
 }
 
 .main-section-title
@@ -20,26 +20,20 @@
 }
 
 .main-section-title {
-  font-size: 6em;
+  font-size: 2em;
   font-weight: bold;
 }
 
 .main-section-subtitle {
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
-@media screen and (min-device-width: 768px) {
+@media (min-width: 768px) {
   .main-section-image {
     height: 360px;
   }
 
   .main-section-title {
     font-size: 3em;
-    font-weight: bold;
   }
-
-  .main-section-subtitle {
-    font-size: 1.5em;
-  }
-
 }

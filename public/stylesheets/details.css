@@ -5,7 +5,7 @@
 
 .details-section {
   display: block;
-  padding: 40px;
+  padding: 20px 40px;
 }
 
 .details-section:last-of-type {
@@ -13,26 +13,11 @@
 }
 
 .details-section-header {
-  margin-bottom: 20px;
-  font-size: 4em;
+  margin-bottom: 10px;
+  font-size: 2em;
   text-decoration: underline;
 }
 
 .details-list-item {
-  font-size: 2.5em;
-}
-
-@media screen and (min-device-width: 768px) {
-  .details-section {
-    padding: 20px 40px;
-  }
-
-  .details-section-header {
-    margin-bottom: 10px;
-    font-size: 2em;
-  }
-
-  .details-list-item {
-    font-size: 1.25em;
-  }
+  font-size: 1.25em;
 }

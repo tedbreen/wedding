@@ -1,5 +1,4 @@
 @import "./header.css";
-@import "./section.css";
 @import "./index.css";
 @import "./details.css";
 @import "./lodging.css";
@@ -7,4 +6,7 @@
 .main {
   display: block;
   background-color: #FFF;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 20px;
 }

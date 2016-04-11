@@ -6,21 +6,23 @@ var details = require('../data/details.json')
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index', {
-    title: 'Katie & Ted'
-  , headerClass: 'index-main-image'
+    title: 'Katie & Ted: Home'
+  , headerClass: 'index-banner'
   })
 })
 
 router.get('/details', function (req, res, next) {
   res.render('details', {
-    details: details
-  , headerClass: 'details-main-image'
+    title: 'Katie & Ted: Details'
+  , details: details
+  , headerClass: 'details-banner'
   })
 })
 
 router.get('/lodging', function (req, res, next) {
   res.render('lodging', {
-    headerClass: 'lodging-main-image'
+    title: 'Katie & Ted: Lodging'
+  , headerClass: 'lodging-banner'
   })
 })
 

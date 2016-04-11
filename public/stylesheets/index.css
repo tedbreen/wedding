@@ -1,7 +1,19 @@
-.index-main-image {
+.index-banner {
   background-image: url("../images/columbia-gorge-vista.jpg");
 }
 
-@media (min-width: 768px) {
+.index-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
+.index-subtitle {
+  font-size: 1.5em;
+}
+
+@media (min-width: 768px) {
+  .index-title {
+    font-size: 3em;
+  }
 }

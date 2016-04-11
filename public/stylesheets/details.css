@@ -1,23 +1,30 @@
-.details-main-image {
-  display: block;
+.details-banner {
   background-image: url("../images/yacht-club.jpg");
+}
+
+.details-title {
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .details-section {
   display: block;
-  padding: 20px 40px;
-}
-
-.details-section:last-of-type {
-  margin-bottom: 120px;
+  margin-bottom: 20px;
 }
 
 .details-section-header {
   margin-bottom: 10px;
-  font-size: 2em;
+  font-size: 1.75em;
   text-decoration: underline;
 }
 
 .details-list-item {
   font-size: 1.25em;
+}
+
+@media (min-width: 768px) {
+  .details-title {
+    font-size: 3em;
+  }
 }

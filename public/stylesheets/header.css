@@ -6,6 +6,13 @@
   font-weight: bold;
 }
 
+.header-banner {
+  display: block;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
 .navBar {
   font-size: inherit;
   border-width: 0 0 2px 0;
@@ -69,6 +76,10 @@
 }
 
 @media (min-width: 768px) {
+  .header-banner {
+    height: 360px;
+  }
+
   .hamburger {
     display: none;
   }

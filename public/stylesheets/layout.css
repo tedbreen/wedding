@@ -2,6 +2,7 @@
 @import "./index.css";
 @import "./details.css";
 @import "./lodging.css";
+@import "./registry.css";
 
 .main {
   display: block;

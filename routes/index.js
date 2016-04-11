@@ -28,4 +28,11 @@ router.get('/lodging', function (req, res, next) {
   })
 })
 
+router.get('/registry', function (req, res, next) {
+  res.render('registry', {
+    title: 'Katie & Ted: Registry'
+  , headerClass: 'registry-banner'
+  })
+})
+
 module.exports = router

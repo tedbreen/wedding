@@ -8,9 +8,6 @@ var bodyParser = require('body-parser')
 
 var routes = require('./routes/')
 
-// helpers
-var detailsList = require('./views/helpers/details-list')
-
 var app = express()
 
 var errStatusCode = 500
@@ -20,8 +17,6 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'hbs')
 
 hbs.registerPartials(__dirname + '/views/partials')
-
-hbs.registerHelper('details_list', detailsList)
 
 // uncomment after placing your favicon in /public
 // app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))

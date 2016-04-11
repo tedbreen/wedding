@@ -1,4 +1,7 @@
-<h1 class="details-title">Details</h1>
-{{#each details}}
-  {{> details_section}}
-{{/each}}
+<h1 class="details-title">Agenda</h1>
+
+<section class="details-agenda">
+  {{#each activities}}
+    {{> day}}
+  {{/each}}
+</section>

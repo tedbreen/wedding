@@ -1,3 +1,5 @@
+@import "./day.css";
+
 .details-banner {
   background-image: url("../images/yacht-club.jpg");
 }
@@ -8,23 +10,18 @@
   font-weight: bold;
 }
 
-.details-section {
-  display: block;
-  margin-bottom: 20px;
-}
-
-.details-section-header {
-  margin-bottom: 10px;
-  font-size: 1.5em;
-  text-decoration: underline;
-}
-
-.details-list-item {
-  font-size: 1.1em;
+.details-agenda {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {
   .details-title {
     font-size: 2.5em;
+  }
+
+  .details-agenda {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }

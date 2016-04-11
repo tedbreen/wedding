@@ -1,8 +1,8 @@
 var express = require('express')
 var router = express.Router()
 
-var details = require('../data/details.json')
 var hotels = require('../data/hotels.json')
+var activities = require('../data/activities.json')
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -15,7 +15,7 @@ router.get('/', function (req, res, next) {
 router.get('/details', function (req, res, next) {
   res.render('details', {
     title: 'Katie & Ted: Details'
-  , details: details
+  , activities: activities
   , headerClass: 'details-banner'
   })
 })

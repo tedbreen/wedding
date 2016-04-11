@@ -4,10 +4,13 @@
 @import "./lodging.css";
 @import "./registry.css";
 
+body {
+  background-color: rgb(245,245,245);
+}
+
 .main {
   display: block;
-  background-color: #FFF;
-  max-width: 768px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 20px;
 }

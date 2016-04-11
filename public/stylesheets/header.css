@@ -4,13 +4,13 @@
   color: #FFF;
   font-size: 2em;
   font-weight: bold;
-  border-width: 0 0 2px 0;
-  border-style: solid;
-  border-color: #FFF;
 }
 
 .navBar {
   font-size: inherit;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-color: #FFF;
 }
 
 .navBar-heading {

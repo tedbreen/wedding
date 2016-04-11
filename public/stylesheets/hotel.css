@@ -1,0 +1,78 @@
+.hotel {
+  padding: 10px;
+  border: 1px solid grey;
+  box-shadow: 3px 3px 5px grey;
+  margin-bottom: 30px;
+}
+
+.hotel-address {
+  margin-bottom: 10px;
+}
+
+.hotel-name {
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+.hotel-rate {
+  margin-bottom: 10px;
+}
+
+.hotel-timeline {
+  margin-bottom: 20px;
+}
+
+.hotel-url {
+  display: inline-block;
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+.hotel-url:visited {
+  color: inherit;
+}
+
+.hotel-button-url {
+  display: inline-block;
+  color: #fff;
+  margin-right: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.hotel-button-url-info {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.hotel-button-url-info:hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
+.hotel-button-url-info:focus {
+  background-color: #31b0d5;
+  border-color: #1b6d85;
+}
+
+.hotel-button-url-action {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.hotel-button-url-action:hover {
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+.hotel-button-url-action:focus {
+  background-color: #449d44;
+  border-color: #255625;
+}
+
+.hotel-left-pad {
+  padding-left: 5px;
+  text-decoration: underline;
+  font-weight: bold;
+}

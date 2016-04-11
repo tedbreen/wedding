@@ -1,0 +1,23 @@
+@import "./event.css";
+
+.day {
+  padding: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 5px grey;
+  background-color: #fff;
+}
+
+.day-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .day {
+    width: 47%;
+  }
+}

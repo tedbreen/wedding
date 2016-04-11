@@ -8,7 +8,8 @@ var bodyParser = require('body-parser')
 
 var routes = require('./routes/')
 
-var detailsListHelper = require('./public/javascripts/details-list-helper')
+// helpers
+var detailsList = require('./views/helpers/details-list')
 
 var app = express()
 
@@ -20,7 +21,7 @@ app.set('view engine', 'hbs')
 
 hbs.registerPartials(__dirname + '/views/partials')
 
-hbs.registerHelper('details_list', detailsListHelper)
+hbs.registerHelper('details_list', detailsList)
 
 // uncomment after placing your favicon in /public
 // app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))

@@ -5,15 +5,15 @@
 .index-title {
   font-size: 2em;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .index-subtitle {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 @media (min-width: 768px) {
   .index-title {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }

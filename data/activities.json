@@ -1,0 +1,44 @@
+[
+  {
+    "day": "Friday",
+    "events": [
+      {
+        "name": "Trail run",
+        "time": "9am-10am",
+        "place": "Forest Park",
+        "street": "2960 NW Upshur St",
+        "cityStateZip": "Portland, OR 97210",
+        "summary": "Easy run on the beautiful trails in one of the largest urban parks in the United States. We'll start at the MacLeay Park trailhead. Street parking is available at the trailhead and the surrounding neighborhood."
+      },
+      {
+        "name": "Welcome reception",
+        "time": "12pm-3pm",
+        "place": "BridgePort Brew Pub",
+        "street": "1313 NW Marshall St",
+        "cityStateZip": "Portland, OR 97209",
+        "summary": "Join us for drinks and snacks at this popular local brewing company's brew pub in Portland's famous Pearl District."
+      }
+    ]
+  },
+  {
+    "day": "Saturday",
+    "events": [
+      {
+        "name": "River run",
+        "time": "9am-10am",
+        "place": "Willamette River",
+        "street": "1401 SW Naito Pkwy",
+        "cityStateZip": "Portland, OR 97201",
+        "summary": "Easy run along the Willamette River, starting from the Marriott Downtown Waterfront hotel. We'll cover both sides of the river in a clockwise loop."
+      },
+      {
+        "name": "Ceremony, reception",
+        "time": "5:45pm-10:45pm",
+        "place": "Columbia River Yacht Club",
+        "street": "37 NE Tomahawk Island Dr",
+        "cityStateZip": "Portland, OR 97217",
+        "summary": "The big event! Short ceremony, followed by cocktail hour, dinner, and dancing."
+      }
+    ]
+  }
+]

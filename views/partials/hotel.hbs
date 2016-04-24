@@ -12,6 +12,8 @@
         <span class="hotel-left-pad">{{phone}}</span>
       </a><br>
       <a class="hotel-button-url hotel-button-url-info" href="{{websiteURL}}">WEBSITE</a>
-      <a class="hotel-button-url hotel-button-url-action" href="{{reserveURL}}">RESERVE</a>
+      {{#if reserveURL}}
+        <a class="hotel-button-url hotel-button-url-action" href="{{reserveURL}}">RESERVE</a>
+      {{/if}}
     </div>
   </section>

@@ -6,7 +6,7 @@
     "websiteURL": "http://www.marriott.com/hotels/maps/travel/pdxor-portland-marriott-downtown-waterfront/",
     "reserveURL": "https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=14898396&utm_source=3508&utm_medium=email&utm_campaign=74500355",
     "phone": "1-503-226-7600",
-    "rate": "$229/night",
+    "rate": "$229/night. Click 'RESERVE' button to access this rate.",
     "timeline": "Deadline for this rate is June 24, 2016"
   },
   {
@@ -14,20 +14,18 @@
     "street": "50 SW Morrison St",
     "cityStateZip": "Portland, OR 97204",
     "websiteURL": "http://www.hotelroseportland.com/",
-    "reserveURL": "http://www.hotelroseportland.com/",
     "phone": "1-503-221-0711",
-    "rate": "Use rate code WED for 15% off best available rate (enter code)",
-    "timeline": "Rate valid while rooms are still available"
+    "rate": "Use rate code WED for 15% off best available rate.",
+    "timeline": "Discount valid while rooms are still available"
   },
   {
     "name": "Hotel Vintage",
     "street": "422 SW Broadway",
     "cityStateZip": "Portland, OR 97205",
     "websiteURL": "http://www.hotelvintage-portland.com/",
-    "reserveURL": "http://www.hotelvintage-portland.com/",
     "phone": "1-503-228-1212",
-    "rate": "Use rate code WED for 15% off best available rate (enter code)",
-    "timeline": "Rate valid while rooms are still available"
+    "rate": "Use rate code WED for 15% off best available rate.",
+    "timeline": "Discount valid while rooms are still available"
   },
   {
     "name": "The Nines",
@@ -36,7 +34,7 @@
     "websiteURL": "http://www.thenines.com/",
     "reserveURL": "http://www.starwoodhotels.com/luxury/search/pre_decider_all.html?propertyID=1757&corporateAccountNumber=388079",
     "phone": "1-877-229-9995",
-    "rate": "15% off best available rate",
+    "rate": "15% off best available rate. Click 'RESERVE' button to access this rate.",
     "timeline": "Rate valid while rooms are still available"
   }
 ]

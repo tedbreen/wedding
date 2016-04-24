@@ -10,6 +10,16 @@
     "timeline": "Deadline for this rate is June 24, 2016"
   },
   {
+    "name": "Hotel Rose",
+    "street": "50 SW Morrison St",
+    "cityStateZip": "Portland, OR 97204",
+    "websiteURL": "http://www.hotelroseportland.com/",
+    "reserveURL": "http://www.hotelroseportland.com/",
+    "phone": "1-503-221-0711",
+    "rate": "Use rate code WED for 15% off best available rate (enter code)",
+    "timeline": "Rate valid while rooms are still available"
+  },
+  {
     "name": "Hotel Vintage",
     "street": "422 SW Broadway",
     "cityStateZip": "Portland, OR 97205",

@@ -1,3 +1,5 @@
+@import "./hamburger.css";
+
 .navBar {
   font-size: inherit;
   border-width: 0 0 2px 0;
@@ -19,20 +21,6 @@
 
 .navBar-menu {
   float: none;
-}
-
-.hamburger {
-  float: right;
-}
-
-.hamburger:focus {
-  outline: 0;
-}
-
-.hamburger-inner
-, .hamburger-inner:before
-, .hamburger-inner:after {
-  background-color: #FFF;
 }
 
 .navBar-menu-li {
@@ -61,10 +49,6 @@
 }
 
 @media (min-width: 768px) {
-  .hamburger {
-    display: none;
-  }
-
   .navBar-menu {
     float: right;
   }

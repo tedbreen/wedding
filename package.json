@@ -7,7 +7,7 @@
     "watch": "npm run watch-server & npm run watch-less",
     "watch-server": "nodemon --watch ./ --ext hbs,js,json ./bin/www",
     "watch-less": "nodemon --watch ./public/stylesheets --ext less --exec 'npm run build-less'",
-    "build-less": "lessc ./public/stylesheets/layout.less ./public/stylesheets/bundle.css"
+    "build-less": "lessc --source-map='./public/stylesheets/bundle.css.map' ./public/stylesheets/layout.less ./public/stylesheets/bundle.css"
   },
   "dependencies": {
     "body-parser": "~1.13.2",

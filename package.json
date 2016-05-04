@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon --watch ./ -e hbs,js,json ./bin/www"
+    "watch": "npm run watch-server",
+    "watch-server": "nodemon --watch ./ --ext hbs,js,json ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.13.2",

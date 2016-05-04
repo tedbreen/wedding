@@ -1,2 +1,4 @@
 node_modules
 .DS_Store
+public/stylesheets/bundle.css
+public/stylesheets/bundle.css.map

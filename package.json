@@ -1,10 +1,15 @@
 {
   "name": "wedding",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon --watch ./ -e hbs,js,json ./bin/www"
+    "postinstall": "npm run build",
+    "watch": "npm run watch-server & npm run watch-less",
+    "watch-server": "nodemon --watch ./ --ext hbs,js,json ./bin/www",
+    "watch-less": "nodemon --watch ./public/stylesheets --ext less --exec 'npm run build-less'",
+    "build": "npm run build-less",
+    "build-less": "lessc --source-map='./public/stylesheets/bundle.css.map' ./public/stylesheets/layout.less ./public/stylesheets/bundle.css"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -13,6 +18,7 @@
     "debug": "~2.2.0",
     "express": "~4.13.1",
     "hbs": "~3.1.0",
+    "less": "^2.6.1",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
   },

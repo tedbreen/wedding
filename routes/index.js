@@ -3,6 +3,7 @@ var router = express.Router()
 
 var hotels = require('../data/hotels.json')
 var activities = require('../data/activities.json')
+var registries = require('../data/registries.json')
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -32,6 +33,7 @@ router.get('/registry', function (req, res, next) {
   res.render('registry', {
     title: 'Katie & Ted: Registry'
   , headerClass: 'registry-banner'
+  , registries: registries
   })
 })
 
